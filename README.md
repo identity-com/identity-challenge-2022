@@ -69,4 +69,4 @@ Once your Pass has been issued, you may go to claim your prize by doing the foll
 
 3. Finally, we would appreciate a shoutout on Twitter (@identity) with your new prize! Chat with our community manager, Garet.
 
-If you have any questions or need help please feel free to reach out to us at CONTACT or come find us at the Lisbon Hacker House!
+If you have any questions or need help please feel free to reach out to us on [Twitter](https://twitter.com/identity) or [Discord](https://discord.io/identitycom), or come find us at the Lisbon Hacker House!

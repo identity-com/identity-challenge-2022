@@ -56,7 +56,9 @@ serviceEndpoint: "https://guten-identag.com"
 Once your DID matches both criteria, you must then use the provided template script to issue yourself a Pass. Note: the Gateway Protocol comes with a CLI that you can use to verify if you have successfully issued a Pass to your wallet.
 
 ```zsh
-`gateway pass verify --cluster [clusterType] --subject [address of the account to which a pass has been issued] --network [address for the gatekeeper network] `
+gateway pass verify --cluster [clusterType] --subject [address of the account to which a pass has been issued] --network [address for the gatekeeper network]
+
+    --> Pass Verified — Current Pass State: 0
 ```
 
 Once your Pass has been issued, you may go to claim your prize by doing the following:

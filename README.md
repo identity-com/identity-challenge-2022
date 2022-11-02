@@ -45,7 +45,7 @@ This Middleware ("CheckDID") is deployed at midb3GKX7wF1minPXeDKqGRKCK9NeR8ns9V8
 
     Note: You need at least one VerificationMethod that matches these criteria, so it's also ok to have multiple.
 
-2. Your DID has at least one Service set up with the following data:\
+2. Your DID has at least one Service set up with the following data:
 
 ```md
 serviceType: "profile-pic",

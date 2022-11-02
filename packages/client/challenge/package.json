@@ -1,0 +1,23 @@
+{
+  "name": "@identity.com/challenge",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "lint": "eslint src/**/*.ts"
+  },
+  "dependencies": {
+    "@identity.com/challenge-client": "1.0.0",
+    "@identity.com/cryptid-hh": "0.3.0-alpha.12",
+    "@identity.com/sol-did-client": "^3.1.4",
+    "@solana/web3.js": "^1.62.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "ts-node": "^10.9.1"
+  }
+}

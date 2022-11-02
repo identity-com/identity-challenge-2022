@@ -1,0 +1,21 @@
+[package]
+name = "identity-challenge"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "identity_challenge"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.25.0"
+cryptid = { git = "https://github.com/identity-com/cryptid", rev = "cfd80e4d83100785dc6f68f5e04d3cc9db06443e", features = ["no-entrypoint", "cpi"] }
+solana_anchor_gateway = { version = "2.0.2", features = ["no-entrypoint", "cpi"]}

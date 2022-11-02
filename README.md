@@ -63,7 +63,7 @@ gateway pass verify --cluster [clusterType] --subject [address of the account to
 
 Once your Pass has been issued, you may go to claim your prize by doing the following:
 
-1. Reach out to us (Contact Data). We will need to confirm that you are in control of the wallet with the associated Pass (criteria 1) and chat through how you solved the challenge.
+1. Reach out to us (contact details provided below). We will need to confirm that you are in control of the wallet with the associated Pass (criteria 1) and chat through how you solved the challenge.
 
 2. We will take you through <https://zerodayshopping.identity.com/> and purchase your prize. To checkout, you will need to connect the wallet that has the correct Pass issued (criteria 2). We will then demo how to perform KYC using the Gateway Protocol (you don't need to bring your ID).
 

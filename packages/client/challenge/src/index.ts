@@ -32,6 +32,7 @@ const cluster: ExtendedCluster = "devnet";
   const connection = new Connection(clusterApiUrl(cluster));
 
   // subject is the wallet to which the pass shall be issued
+  // make sure you keep the private key to the subject
   const subject = Keypair.generate();
   // authority of the DID/Cryptid Account
   const authority = Keypair.generate();

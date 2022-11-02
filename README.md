@@ -30,15 +30,15 @@ Is the official DID method on Solana and offers one identifier for all on and of
 
 ## Challenge Setup
 
-A pair of brand new Apple Airpod Max's is yours if you can prove that you own an Identity Challenge Gateway Pass issued by the Gatekeeper Network cha3u755qh8GbDayALBwA7ZroFT4NHfPUYgERp16M1z in your wallet.
+A pair of brand new Apple Airpod Max's is yours if you can prove that you own an Identity Challenge Gateway Pass issued by the Gatekeeper Network `cha3u755qh8GbDayALBwA7ZroFT4NHfPUYgERp16M1z` in your wallet.
 
 Some important housekeeping:
 
 - The challenge can only be performed on Solana Devnet.
 
-- The challenge program is deployed at chahabA9kRqd7kfdHsxSHTvPgwtfYRChf7u2vZtkDYS which issues a Gateway Pass to a wallet of your choice. However, the Pass issuance must be called by a Cryptid Account that is configured with the predefined Middleware "CheckDID".
+- The challenge program is deployed at `chahabA9kRqd7kfdHsxSHTvPgwtfYRChf7u2vZtkDYS` which issues a Gateway Pass to a wallet of your choice. However, the Pass issuance must be called by a Cryptid Account that is configured with the predefined Middleware "CheckDID".
 
-This Middleware ("CheckDID") is deployed at midb3GKX7wF1minPXeDKqGRKCK9NeR8ns9V8BQUMJDr and verifies that the DID associated with your Cryptid Account meets these two criteria:
+This Middleware ("CheckDID") is deployed at `midb3GKX7wF1minPXeDKqGRKCK9NeR8ns9V8BQUMJDr` and verifies that the DID associated with your Cryptid Account meets these two criteria:
 
 1. An Ethereum Key as a VerificationMethod of Type `EcdsaSecp256k1RecoveryMethod2020` that also has the following Flags set:
     `BitwiseVerificationMethodFlag.CapabilityInvocation | BitwiseVerificationMethodFlag.OwnershipProof`

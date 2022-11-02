@@ -47,7 +47,7 @@ This Middleware ("CheckDID") is deployed at midb3GKX7wF1minPXeDKqGRKCK9NeR8ns9V8
 
 2. Your DID has at least one Service set up with the following data:\
 
-```json
+```md
 serviceType: "profile-pic",
 
 serviceEndpoint: "https://guten-identag.com"

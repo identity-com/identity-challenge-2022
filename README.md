@@ -28,6 +28,8 @@ Is the official DID method on Solana and offers one identifier for all on and of
 
 [Learn more](https://github.com/identity-com/sol-did).
 
+[Client Documentation](https://github.com/identity-com/sol-did/tree/develop/sol-did/client/packages/core).
+
 ## Challenge Setup
 
 ### Overview
@@ -110,8 +112,8 @@ Once your Pass has been issued, you may go to claim your prize by doing the foll
 
 1. Reach out to us (contact details provided below). We will need to confirm that you are in control of the wallet with the associated Pass (criteria 1) and chat through how you solved the challenge.
 
-2. We will take you through <https://zerodayshopping.identity.com/> and purchase your prize. To checkout, you will need to connect the wallet that has the correct Pass issued (criteria 2). We will then demo how to perform KYC using the Gateway Protocol (you don't need to bring your ID).
+2. We will take you through <https://zerodayshopping.identity.com/> and purchase your prize. We will then demo how to perform KYC using the Gateway Protocol (you don't need to bring your ID).
 
 3. Finally, we would appreciate a shoutout on Twitter (@identity) with your new prize! Chat with our community manager, Garet.
 
-If you have any questions or need help please feel free to reach out to us on [Twitter](https://twitter.com/identity) or [Discord](https://discord.io/identitycom), or come find us at the Lisbon Hacker House!
+If you have any questions or need help please feel free to reach out to us on [Twitter](https://twitter.com/identity) or [Discord](https://discord.io/identitycom), or come find us at the Lisbon Hacker House (in the corner opposite the entrance)!

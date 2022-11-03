@@ -11,7 +11,7 @@
     "lint": "eslint src/**/*.ts"
   },
   "dependencies": {
-    "@identity.com/challenge-client": "1.0.0",
+    "@identity.com/challenge-client": "1.0.1",
     "@identity.com/cryptid-hh": "0.3.0-alpha.12",
     "@identity.com/sol-did-client": "^3.1.4",
     "@solana/web3.js": "^1.62.0"

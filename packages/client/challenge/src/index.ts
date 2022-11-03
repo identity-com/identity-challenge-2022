@@ -43,7 +43,7 @@ const cluster: ExtendedCluster = "devnet";
 
   console.log("Executing Transaction");
   // authority.publicKey needs to be Cryptid account [via CryptidClient]
-  const tx = await client.issuePass(authority.publicKey, subject.publicKey);
+  const tx = await client.issuePass(cryptid.address(), subject.publicKey);
   // TODO: Propose and execute transaction [via CryptidClient]
 
   console.log(`Unsuccessfully issued a pass to ${subject.publicKey}`);

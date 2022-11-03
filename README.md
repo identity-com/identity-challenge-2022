@@ -41,6 +41,8 @@ Is the official DID method on Solana and offers one identifier for all on and of
 A pair of brand new Apple Airpod Max's is yours if you can prove that you own an Identity Challenge Gateway Pass issued
 by the Gatekeeper Network `cha3u755qh8GbDayALBwA7ZroFT4NHfPUYgERp16M1z` in your wallet.
 
+*NB:* Please make use of our template found [here](packages/client/challenge/src/index.ts) to complete the challenge.
+
 Some important housekeeping:
 
 - The challenge can only be performed on Solana Devnet.

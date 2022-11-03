@@ -1,28 +1,9 @@
-import {
-  Connection,
-  PublicKey,
-  LAMPORTS_PER_SOL,
-  Keypair,
-  Transaction,
-  clusterApiUrl,
-} from "@solana/web3.js";
+import { Connection, PublicKey, Keypair, clusterApiUrl } from "@solana/web3.js";
 import { IdentityChallengeClient } from "@identity.com/challenge-client";
 import NodeWallet from "./nodewallet";
-import {
-  BitwiseVerificationMethodFlag,
-  DidSolIdentifier,
-  DidSolService,
-  ExtendedCluster,
-  Service,
-  VerificationMethodType,
-  Wallet,
-} from "@identity.com/sol-did-client";
-import {
-  CHECK_DID_MIDDLEWARE_PROGRAM_ID,
-  Cryptid,
-  CryptidClient,
-} from "@identity.com/cryptid-hh";
-import { utils, Wallet as EthWallet } from "ethers";
+import { ExtendedCluster } from "@identity.com/sol-did-client";
+import {} from "@identity.com/cryptid-hh";
+import {} from "ethers";
 
 const cluster: ExtendedCluster = "devnet";
 

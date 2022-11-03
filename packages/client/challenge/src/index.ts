@@ -41,10 +41,9 @@ const cluster: ExtendedCluster = "devnet";
 
   // TODO: Implement: The DID that owns the Cryptid account needs to satisfy the middleware requirements
 
-  console.log("Executing Transaction");
-  // authority.publicKey needs to be Cryptid account [via CryptidClient]
-  const tx = await client.issuePass(authority.publicKey, subject.publicKey);
+  // TODO: issuePass needs to be called with address of CryptidAccount.
+  // const tx = await client.issuePass(cryptid.address(), subject.publicKey);
   // TODO: Propose and execute transaction [via CryptidClient]
 
-  console.log(`Unsuccessfully issued a pass to ${subject.publicKey}`);
+  // console.log(`Successfully issued a pass to ${subject.publicKey}`);
 })().catch(console.error);
